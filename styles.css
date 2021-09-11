@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif; 
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   background: blanchedalmond;
+   background-image: url("sam-moqadam-s8wknXs_O7U-unsplash.jpg");
+}
+.containers{
+    margin: 0;
+    padding: 0;
+}
+.Ausfall {
+background: white;
+height: 45px;
+width: 2px;
+transform: rotate(60deg);
+text-decoration: underline;
+}
+
+
+
+table{
+    border: none;
+    border-radius: 5px;
+    background: bisque;
+    color: white;
+} 
+tr th {
+    margin: 10px 10px;
+    padding: 15px 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.test {
+    border: none;
+    width: 100px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    background: rgb(218, 97, 97);
+}
+.test:hover{
+    transform: rotate(deg);
+}
+@media screen and (max-width: 768px){
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif; 
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.containers{
+    margin: 0;
+    padding: 0;
+}
+.Ausfall {
+background: white;
+height: 45px;
+width: 2px;
+transform: rotate(60deg);
+text-decoration: underline;
+}
+
+
+
+table{
+    border: none;
+    border-radius: px;
+    background: bisque;
+    color: white;
+} 
+tr th {
+    margin: 10px 10px;
+    padding: 15px 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.test {
+    border: none;
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background: rgb(218, 97, 97);
+}
+.test:hover{
+    transform: rotate(deg);
+}
+}
